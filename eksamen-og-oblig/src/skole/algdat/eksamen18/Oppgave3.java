@@ -1,4 +1,4 @@
-package skole.algdat.atten;
+package skole.algdat.eksamen18;
 
 //Lag en klasse kalt Liste for å behandle arrays.
 class Liste {

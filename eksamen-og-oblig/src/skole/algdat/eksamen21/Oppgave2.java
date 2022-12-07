@@ -1,4 +1,4 @@
-package skole.algdat.tjueen;
+package skole.algdat.eksamen21;
 
 import javax.swing.*;
 

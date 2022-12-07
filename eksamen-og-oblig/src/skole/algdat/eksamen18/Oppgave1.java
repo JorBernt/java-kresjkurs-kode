@@ -1,4 +1,4 @@
-package skole.algdat.atten;
+package skole.algdat.eksamen18;
 
 public class Oppgave1 {
     public static void main(String[] args) {

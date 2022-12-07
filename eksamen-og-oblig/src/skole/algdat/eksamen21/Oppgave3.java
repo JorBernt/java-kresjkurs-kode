@@ -1,4 +1,4 @@
-package skole.algdat.tjueen;
+package skole.algdat.eksamen21;
 
 //Det er definert to klasser, Fag og Student. Se koden til venstre.
 //Lag et program som inneholder disse to klassene og en main-metode.

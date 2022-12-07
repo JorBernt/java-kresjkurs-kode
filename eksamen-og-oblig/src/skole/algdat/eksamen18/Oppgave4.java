@@ -1,4 +1,4 @@
-package skole.algdat.atten;
+package skole.algdat.eksamen18;
 
 import java.util.ArrayList;
 import java.util.List;
