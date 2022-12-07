@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxprosjekt.HelloController">
+   <children>
+      <TextField fx:id="etternavnTextField" layoutX="100.0" layoutY="122.0" />
+      <TextField fx:id="fornavnTextField" layoutX="100.0" layoutY="73.0" />
+      <TextField fx:id="tlfnrTextFeild" layoutX="100.0" layoutY="167.0" />
+      <TextField fx:id="addresseTextField" layoutX="100.0" layoutY="211.0" />
+      <Label layoutX="39.0" layoutY="77.0" text="Fornavn:" />
+      <Label layoutX="36.0" layoutY="126.0" text="Etternavn:" />
+      <Label layoutX="39.0" layoutY="215.0" text="Addresse:" />
+      <Label layoutX="39.0" layoutY="180.0" text="Tlfnr:" />
+      <RadioButton fx:id="kundeRadioBtn" layoutX="315.0" layoutY="77.0" mnemonicParsing="false" text="Kunde" />
+      <RadioButton fx:id="ansattRadioBtn" layoutX="315.0" layoutY="105.0" mnemonicParsing="false" text="Ansatt" />
+      <TextField fx:id="ansattNrTextField" layoutX="100.0" layoutY="248.0" />
+      <Label layoutX="39.0" layoutY="252.0" text="Ansattnr:" />
+      <TextField fx:id="fodselnrTextField" layoutX="100.0" layoutY="289.0" />
+      <Label layoutX="36.0" layoutY="293.0" text="Fødselsnr:" />
+      <Label fx:id="personListeLabel" alignment="TOP_LEFT" layoutX="315.0" layoutY="180.0" prefHeight="185.0" prefWidth="250.0" text="Label" />
+      <Button fx:id="lagreBtn" layoutX="135.0" layoutY="328.0" mnemonicParsing="false" onAction="#lagrePerson" text="Lagre" />
+      <Button fx:id="visKunderBtn" layoutX="318.0" layoutY="143.0" mnemonicParsing="false" onAction="#visKunde" text="Vis kunder" />
+      <Button fx:id="visAnsattBtn" layoutX="477.0" layoutY="143.0" mnemonicParsing="false" onAction="#visAnsatt" text="Vis ansatte" />
+   </children>
+</AnchorPane>

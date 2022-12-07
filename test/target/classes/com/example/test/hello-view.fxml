@@ -1,0 +1,30 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0">
+<children>
+<Button layoutX="372.0" layoutY="187.0" mnemonicParsing="false" onAction="#registrer" text="Registrer" />
+<Label layoutX="114.0" layoutY="47.0" text="Registrering av temperaturer">
+    <font>
+        <Font size="24.0" />
+    </font>
+</Label>
+<TextField fx:id="txtTemperatur" layoutX="161.0" layoutY="187.0" />
+<Label layoutX="56.0" layoutY="192.0" prefHeight="17.0" prefWidth="90.0" text="Temperatur" />
+<Label layoutX="56.0" layoutY="274.0" text="Min" />
+<Label layoutX="144.0" layoutY="274.0" text="Maks" />
+<Label layoutX="245.0" layoutY="274.0" text="Gjennomsnitt" />
+<Button layoutX="500.0" layoutY="349.0" mnemonicParsing="false" onAction="#nullstill" text="Nullstill" />
+<Label fx:id="lblMin" layoutX="51.0" layoutY="310.0" />
+<Label fx:id="lblMaks" layoutX="144.0" layoutY="310.0" />
+<Label fx:id="lblGjennomsnitt" layoutX="245.0" layoutY="310.0" />
+<Label fx:id="lblFeil" layoutX="372.0" layoutY="236.0" prefHeight="17.0" prefWidth="167.0" textFill="#e40b07" /
+</children>
+        </AnchorPane>
